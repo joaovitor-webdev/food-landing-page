@@ -1,0 +1,134 @@
+#home {
+    display: flex;
+    position: relative;
+    min-height: 100vh;
+    /* padding-top: 91.35px; */
+}
+
+.home-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    flex-wrap: wrap;
+}
+
+#cta {
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+    margin-top: 5%;
+}
+
+#cta .title {
+    font-size: 4rem;
+    color: #1d1d1d;
+}
+
+#cta .title span {
+    color: #e2a209;
+}
+
+#cta .description {
+    font-size: 1.2rem;
+}
+
+#cta_buttons {
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+}
+
+#cta_buttons a {
+    text-decoration: none;
+    color: #1d1d1d;
+}
+
+#phone_button {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 8px 14px;
+    font-weight: 500;
+    box-shadow: 0 0 12px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    max-width: 250px;
+}
+
+#phone_button button {
+    box-shadow: none;
+}
+
+#banner {
+    width: 50vh;
+    max-width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#banner img {
+    width: 500px;
+}
+
+.shape {
+    background-color: #ffe8b4;
+    width: 500px;
+    height: 500px;
+    border-radius: 98% 55% 92% 83%;
+}
+
+@media screen and (max-width: 1170px) {
+    #home {
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+        padding-top: 96px;
+    }
+
+    #banner {
+        width: 100%;
+        max-width: 500px;
+    }
+
+    #cta {
+        max-width: 500px;
+        width: 100%;
+        text-align: center;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    #phone_button {
+        display: none;
+    }
+
+    #banner,
+    #banner img {
+        width: 300px;
+    }
+
+    .shape {
+        width: 300px;
+        height: 300px;
+    }
+}
+
+@media screen and (max-width: 370px) {
+    #cta {
+        min-width: 300px;
+    }
+
+    #banner,
+    #banner img {
+        width: 300px;
+    }
+
+    .shape {
+        width: 300px;
+        height: 300px;
+    }
+}

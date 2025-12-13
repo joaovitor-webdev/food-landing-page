@@ -1,0 +1,27 @@
+footer {
+    background-color: #ffe8b4;
+}
+
+#footer_img {
+    z-index: 0;
+    position: relative
+}
+
+#footer_itens {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 8% 24px 8%;
+}
+
+#copyright {
+    color: #1d1d1d;
+    font-weight: 500;
+}
+
+@media screen and (max-width: 600px) {
+    #footer_itens {
+        flex-direction: column;
+        gap: 20px;
+    }
+}
