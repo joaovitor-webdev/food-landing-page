@@ -13,7 +13,7 @@ Acesse a demo ao vivo aqui: [Link para Demo](https://foodrestaurantepage.netlify
 ## Tecnologias
 - HTML5
 - CSS3 
-- JavaScript
+- jQuery
 - Font Awesome (via CDN)
 - Google Fonts (via importação CSS)
 
