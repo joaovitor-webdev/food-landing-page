@@ -1,6 +1,6 @@
-# Color Palette Generator
+# Food Landing Page
 
-Landing page responsiva para um restaurante de comida saudável, focada em apresentação de cardápio e conversão.
+Landing page responsiva para um restaurante de comida fast-food, focada em apresentação de cardápio e conversão.
 
 ## Sobre
 Aplicação web simples de uma página para um restaurante de comida saudável. Projeto ideal para praticar estruturação de seções (Início, Cardápio e Depoimentos), estilização responsiva com CSS.
